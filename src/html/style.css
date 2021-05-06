@@ -1,0 +1,72 @@
+*{
+    margin: 00px;
+    padding: 00px;
+}
+.bgimage{
+    overflow: auto;  
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image:url('images/aadharcard.png');
+    display: flex;
+    flex-direction: column;
+
+}
+.details{
+
+     
+    display: inline-block;
+    align-content: center;
+    padding: 20px 20px;
+    width: 20rem;
+
+}
+.element{
+    display: flex;
+    position: absolute;
+    margin: 7rem 12rem;
+    width: 20rem;
+
+}
+.details ul{
+    list-style: none;
+    width: 12rem;
+    flex-direction: row;
+    
+}
+.details ul li{
+    display: block;    
+    
+    text-align: left;
+    color: black;
+    width: 18rem;
+    font-size: 16;
+    padding-top: 5px;
+    
+}
+.photo #photo{
+    display: flex;
+    position: absolute;
+    margin: 6rem 1rem;
+    width: 10em;
+    height: 10em;
+    
+}
+.Bcode{
+    
+    display: flex;
+    position: absolute;
+    margin: 0rem 32rem;
+    width: 10em;
+    height: 10em;
+    
+}
+
+.Bcode #photo{
+    display: inline;
+    position: absolute;
+    margin: 6rem 1rem;
+    width: 10em;
+    height: 10em;
+
+}
